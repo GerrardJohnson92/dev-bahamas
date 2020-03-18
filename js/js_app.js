@@ -1,7 +1,7 @@
 const container = document.querySelector(".container")
 const coffees = [
   { name: "Beaches", image: "img/beach.jpg", word:"beaches.html" },
-  { name: "Music", image: "img/music.jpg", word:"music.html"},
+  { name: "Music", image: "img/music.jpg", word:"music.html" },
   { name: "Food", image: "img/food.jpg", word:"food.html"},
   { name: "Islands", image: "img/island.jpg", word:"Eleuthera"},
   { name: "History", image: "img/history.jpg", word:"Pindling"},
