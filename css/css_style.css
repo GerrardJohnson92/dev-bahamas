@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body {
-  background: #fdfdfd;
+  background: #eed9d9;
   font-family: "Nunito", sans-serif;
   font-size: 1rem;
 }
@@ -47,7 +47,7 @@ h1 {
     flex-direction: column;
     width: 15rem auto;
     height: 15rem;
-    background: #fff;
+    background: rgb(255, 232, 232);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     border-radius: 10px;
     margin: auto;
@@ -81,4 +81,8 @@ h1 {
     justify-content: space-between;
     align-items: center;
 }
+  .card--input{
+    padding: 0.3rem 1rem;
+    
+  }
   
