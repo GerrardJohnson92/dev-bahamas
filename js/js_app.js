@@ -30,21 +30,21 @@ const showCoffees = () => {
   }
 
   const showCoff = () => {
-    let output = ""
+    let spit = ""
     coffees.forEach(
       ({ name, image, word}) =>
-        (output += `<a class="card--link" href=${word}>${name}</a>`)
+        (spit += `<a class="card--link" href=${word}>${name}</a>`)
     )
-    contain.innerHTML = output
+    contain.innerHTML = spit
   }
 
   const showfooter = () => {
-    let output = ""
+    let spitit = ""
     coffees.forEach(
       ({ name, image, word}) =>
-        (output += `<a class="footer" href=${word}>${name}    </a>`)
+        (spitit += `<a class="footer" href=${word}>${name}    </a>`)
     )
-    feet.innerHTML = output
+    feet.innerHTML = spitit
   }
   
   document.addEventListener("DOMContentLoaded", showCoffees)
