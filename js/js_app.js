@@ -1,8 +1,8 @@
 const container = document.querySelector(".container")
 const coffees = [
-  { name: "Beaches", image: "img/beach.jpg", word:"card_sites/beaches.html" },
-  { name: "Music", image: "img/music.jpg", word:"card_sites/music.html" },
-  { name: "Food", image: "img/food.jpg", word:"card_sites/food.html"},
+  { name: "Beaches", image: "img/beach.jpg", word:"beaches.html" },
+  { name: "Music", image: "img/music.jpg", word:"music.html" },
+  { name: "Food", image: "img/food.jpg", word:"food.html"},
   { name: "Islands", image: "img/island.jpg", word:"Eleuthera"},
   { name: "History", image: "img/history.jpg", word:"Pindling"},
   { name: "Tourism", image: "img/tourism.jpg", word:"Atlantis" },
