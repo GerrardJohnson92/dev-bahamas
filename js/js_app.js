@@ -6,12 +6,12 @@ const coffees = [
   { name: "Beaches", image: "img/beach.jpg", word:"beaches.html" },
   { name: "Music", image: "img/music.jpg", word:"music.html" },
   { name: "Food", image: "img/food.jpg", word:"food.html"},
-  { name: "Islands", image: "img/island.jpg", word:"Eleuthera"},
-  { name: "History", image: "img/history.jpg", word:"Pindling"},
-  { name: "Tourism", image: "img/tourism.jpg", word:"Atlantis" },
-  { name: "Government", image: "img/government.jpg", word:"Gubment"},
-  { name: "Religion", image: "img/religion.jpg", word:"Church"},
-  { name: "Junkanoo", image: "img/junkanoo.jpg", word:"Saxons"}
+  { name: "Islands", image: "img/island.jpg", word:"island.html"},
+  { name: "History", image: "img/history.jpg", word:"history.html"},
+  { name: "Tourism", image: "img/tourism.jpg", word:"tourism.html" },
+  { name: "Government", image: "img/government.jpg", word:"government.html"},
+  { name: "Religion", image: "img/religion.jpg", word:"religion.html"},
+  { name: "Junkanoo", image: "img/junkanoo.jpg", word:"junkanoo.html"}
 ]
 
 const showCoffees = () => {
