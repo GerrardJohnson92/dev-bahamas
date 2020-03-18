@@ -41,6 +41,15 @@ h1 {
     margin: auto;
     padding: 1rem 0;
   }
+  .contain {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 1rem 0;
+  }
   .card {
     display: flex;
     align-items: center;
@@ -81,8 +90,17 @@ h1 {
     justify-content: space-between;
     align-items: center;
 }
-  .card--input{
-    padding: 0.3rem 1rem;
-    
-  }
-  
+.feet {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(243, 191, 191);
+}
+
+.footer {
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+}
