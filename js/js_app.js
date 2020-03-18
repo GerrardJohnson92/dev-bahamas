@@ -1,4 +1,7 @@
 const container = document.querySelector(".container")
+const contain = document.querySelector(".contain")
+const feet = document.querySelector(".feet")
+
 const coffees = [
   { name: "Beaches", image: "img/beach.jpg", word:"beaches.html" },
   { name: "Music", image: "img/music.jpg", word:"music.html" },
@@ -25,8 +28,28 @@ const showCoffees = () => {
     )
     container.innerHTML = output
   }
+
+  const showCoff = () => {
+    let output = ""
+    coffees.forEach(
+      ({ name, image, word}) =>
+        (output += `<a class="card--link" href=${word}>${name}</a>`)
+    )
+    contain.innerHTML = output
+  }
+
+  const showfooter = () => {
+    let output = ""
+    coffees.forEach(
+      ({ name, image, word}) =>
+        (output += `<a class="footer" href=${word}>${name}    </a>`)
+    )
+    feet.innerHTML = output
+  }
   
   document.addEventListener("DOMContentLoaded", showCoffees)
+  document.addEventListener("DOMContentLoaded", showCoff)
+  document.addEventListener("DOMContentLoaded", showfooter)
 
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
