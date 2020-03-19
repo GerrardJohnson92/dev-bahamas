@@ -32,7 +32,7 @@ const showCoffees = () => {
   const showCoff = () => {
     let spit = ""
     coffees.forEach(
-      ({ name, image, word}) =>
+      ({ name, word}) =>
         (spit += `<a class="card--link" href=${word}>${name}</a>`)
     )
     contain.innerHTML = spit
@@ -41,7 +41,7 @@ const showCoffees = () => {
   const showfooter = () => {
     let spitit = ""
     coffees.forEach(
-      ({ name, image, word}) =>
+      ({ name, word}) =>
         (spitit += `<a class="footer" href=${word}>${name}    </a>`)
     )
     feet.innerHTML = spitit
